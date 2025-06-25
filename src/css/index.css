@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header{
+    color: #180d81;
+}
+main {
+  flex: 1;
+}
+
+footer.piePagina {
+  
+ 
+    font-size: 1rem;
+}
+main div{
+  margin: 10px;
+    background-color: #FFCC50;
+    color: #000000;
+    width: 120px;
+    margin-left: 50%;
+    border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+}
+main div:hover{
+    background-color: #B13BFF; 
+}
+div a{
+    color: #000000;
+
+}
+footer{
+  background-color: #000000;
+}
+footer p{
+  color: #FFCC50;
+  text-align: center;
+}
+p{
+  padding: 10px;
+
+}
+footer div{ 
+    text-align: center;
+    color: aliceblue;
+}
+footer a{
+    color:   #f4dfac; 
+;
+}
+footer a:hover {
+    color:  #FFCC50; /* Elige el color que prefieras */
+}

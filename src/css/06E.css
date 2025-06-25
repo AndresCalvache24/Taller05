@@ -1,0 +1,43 @@
+header{
+  background-color: #5fdcf0;
+  margin: auto;
+}
+.contenedor{
+    display: flex;
+  gap: 20px;
+    padding: 10px;
+}
+section{
+padding: 10px;
+  background-color:   #B13BFF;
+
+
+}
+
+
+ .div1{
+ width: 300px ;
+  background-color: #ceb245;
+    border: 3px solid;
+ }
+
+ .div2{
+   width: 300px ;
+  background-color: #FFCC50;
+  
+
+ }
+footer{
+  background-color: #000000;
+}
+footer p{
+  color: #FFCC50;
+  text-align: center;
+}
+p{
+  padding: 10px;
+
+}
+
+
+
