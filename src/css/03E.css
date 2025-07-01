@@ -1,3 +1,4 @@
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -5,101 +6,76 @@
 }
 
 body {
-  font-family: "Arial", sans-serif;
-  line-height: 1.6;
-  background: linear-gradient(135deg, #eaa64d 0%, #a16d28 100%);
-  color: #2c3e50;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f3e5f5, #e1bee7);
+  color: #d8470d;
   min-height: 100vh;
-  gap: 20px;
 }
+
+/* Header con colores lilas */
 header {
-  width: 100%;
-  height: 60px;
-  background: linear-gradient(135deg, #eaa64d 0%, #0d5ea6 100%);
-  color: #0d5ea6;
-  box-shadow: 5px 5px;
-}
-header div{
-  margin-left: 10px;
-}
-main {
-  margin-top: 10px;
-  padding: 20px;
-
-}
-figure {
-
-  width: 300px;
-  height: 200px;
-  border: 5px solid #fff;
-  border-radius: 15px;
-   
-}
-.div1{
+  background: linear-gradient(to right, #d8470d, #f18053);
+  color: white;
   text-align: center;
-grid: 20px;
-}
-img {
-
-  padding: 5px;
-  width: 200px;
-  height: 180px;
-  box-shadow: 20px -10px 10px saddlebrown;
-  border-radius: 10% 10% 10% 10%;
-
-
+  padding: 2rem 1rem;
 }
 
-.section1{
-  display: grid;
-  margin-top: 40px;
-  grid-template-columns: 1fr 1fr 300px;
-  grid-template-rows: 250px 200px 180px 150px 200px;
-  grid-template-areas:
-    "img03 img03 img03"
-    "img03 img03 img03"
-    "img01 img02 img04"
-    "img05 img06 img07"
-    "fimg08 img09 img10";
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.boton {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #ede7f6;
+  color: #d8470d;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #d8470d;
+  color: white;
+}
+
+/* Contenedor con flex dirección columna */
+.contenedor-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 1.5rem;
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.img03 {
-  grid-area: img03;
- 
-}
-.img01 {
-  grid-area: img01;
-
-}
-.img02 {
-  grid-area: img02;
-
+  padding: 2rem 1rem;
 }
 
-.img04 {
-  grid-area: img05;
-
+/* Tarjetas de imagen con bordes violeta */
+.imagen-item {
+  background-color: white;
+  border: 3px solid #d8470d;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
 }
-.img06 {
-  grid-area: img06;
 
+.imagen-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
-.img07 {
-  grid-area: img07;
 
-}
-.img08 {
-  grid-area: img08;
-
-}
-.img09 {
-  grid-area: img09;
-
-}
-.img10 {
-  grid-area: img10;
-
+.imagen-item figcaption {
+  background: linear-gradient(to right, #e2462a, #df6231);
+  color: white;
+  text-align: center;
+  padding: 0.8rem;
+  font-weight: bold;
 }

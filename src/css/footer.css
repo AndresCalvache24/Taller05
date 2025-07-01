@@ -1,0 +1,28 @@
+
+footer.piePagina {
+  
+ 
+    font-size: 1rem;
+}
+footer{
+  background-color: #000000;
+}
+footer p{
+  color: #FFCC50;
+  text-align: center;
+}
+p{
+  padding: 10px;
+
+}
+footer div{ 
+    text-align: center;
+    color: aliceblue;
+}
+footer a{
+    color:   #f4dfac; 
+;
+}
+footer a:hover {
+    color:  #FFCC50; /* Elige el color que prefieras */
+}
